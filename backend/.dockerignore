@@ -1,0 +1,30 @@
+# Ignore Maven and Gradle build directories
+target/
+build/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore Eclipse project files
+.project
+.classpath
+.settings/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore Docker files
+Dockerfile
+docker-compose.yml
+
+# Ignore environment files
+.env

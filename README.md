@@ -112,7 +112,7 @@ cd backend
 cp ./src/main/resources/.env.example ./src/main/resources/.env
 ```
 
-#### 3. Clean and package the project:
+#### 3. Clean and package the project: (only if running locally)
 
 You could simply use `gradle` if you have it already installed.
 
@@ -247,7 +247,7 @@ There are also unit/integration tests included in the backend directory for some
 In order to run them make sure you can connect to the DB first, i.e. all `.env` variables are set correctly and that you have a test DB set up, then execute the following command:
 
 ```bash
-mvn clean test
+./gradlew clean test
 ```
  
 You should see that all tests are successful. If not, something with the setup is incorrect.
